@@ -1,0 +1,23 @@
+.btn-success {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn-primary {
+    font-size: 30px;
+}
+.btn-primary:hover {
+    font-size: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(2, 43, 43);
+} 
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 40px rgb(0, 0, 0)}
+    to{box-shadow: 1px 1px 40px rgb(255, 255, 255)}
+}
